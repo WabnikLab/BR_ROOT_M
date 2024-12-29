@@ -1,15 +1,9 @@
-# BR_ROOT_M
-Root model with Brassinosteroids
+# RootModel with BR control
 
-Requirements Software and algorithms
+After installing MorphoDynamics, the model can be compiled by typing:
 
+make -B
 
-MorphoGraphX
-MorphoGraphX Newest version
-https://morphographx.org/
+If compiling is successfull, the modle can be run with:
 
-MorphoDynamX
-https://morphographx.org/morphodynamx/
-
-Model execution in terminal window:
-MorphoDynamX --model 'Model/Root/01 Root'  '--addlibrary' usrLibRoot.so Root_Brassinosteroid.mdxv
+MorphoDynamX  '--model' 'Model/Root/01 Root' '--addlibrary' 'usrLibRoot.so' Root_Brassinosteroid.mdxv
